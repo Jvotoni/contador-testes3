@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>vase clicker</title>
+</head>
+<body>
+    <div>
+    <h1>vaso</h1>
+      <p id="vasin">0</p>
+      <button onclick="Mais()"></button>
+    </div>
+
+      <script>
+        let numero = 0
+
+        function Mais(){
+            numero++
+            render()
+        }
+        function render(){
+            const p = document.querySelector('#vasin')
+            p.innerHTML = numero
+        }
+      </script>
+</body>
+</html>

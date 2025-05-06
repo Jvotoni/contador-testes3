@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: rgb(71, 70, 70);
+  
+}
+button{
+
+   background-image: url(Imagem\ do\ WhatsApp\ de\ 2025-05-05\ à\(s\)\ 15.51.36_da7b7299.jpg); 
+   background-position: 50% 50%;
+   background-size: 85px;
+   width: 60px;
+   height:70px;
+   margin-top: 25px;
+   border: none;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+button:hover{
+    transform: scale(1.2);
+
+}
+p{
+    margin-top: 35px;
+    font-size: 40px;
+    font-family: monospace;
+}
+h1{
+    margin-top: 15px;
+    font-family: cursive;
+}
+div{
+    background-color: black;
+    width: 180px;
+    height: 290px;
+    border-radius: 8px;
+    text-align: center;
+    color: aliceblue;
+}
